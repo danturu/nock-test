@@ -1,0 +1,27 @@
+{
+  "name": "nock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "test:watch": "yarn run test -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "nock": "^9.0.13",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "superagent": "^3.5.2"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ]
+  }
+}
